@@ -1,3 +1,5 @@
+import sun.plugin2.message.Message;
+
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;

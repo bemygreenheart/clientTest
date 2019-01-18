@@ -283,8 +283,8 @@ private void actionForTimer (ActionEvent e){
     }
 
     SendEmail sendEmail= new SendEmail();
-    sendEmail.sendGmail(email,"musobek.shodmanov.1998@gmail.com","Inha&4101998",total,testCount,id);
-    sendEmail.sendGmail("jaokhirinha@mail.ru","musobek.shodmanov.1998@gmail.com","Inha&4101998",total,testCount,id);
+    sendEmail.sendGmail(email,"email","password",total,testCount,id);
+    sendEmail.sendGmail("email","email","pass",total,testCount,id);
 
     JOptionPane.showMessageDialog(this,"Time is over, Your result is sent to your email");
     motherFrame.remove(this);
